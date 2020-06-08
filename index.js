@@ -42,9 +42,9 @@ arrayOfTransforms = [
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ]
-function actionApplyer(a,arrayOfTransforms){
-  for (let i=0;i<arrayOfTransforms.length;i++){
-     arrayOfTransforms[i](a)
+function actionApplyer(a,array){
+  for (let i=0;i<array.length;i++){
+    let a= array[i](a)
   }
   return a
 }
