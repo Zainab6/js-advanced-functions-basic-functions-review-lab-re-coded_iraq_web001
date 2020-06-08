@@ -44,7 +44,7 @@ arrayOfTransforms = [
         ]
 function actionApplyer(a,array){
   for (let i=0;i<array.length;i++){
-    let a= array[i](a)
+   a = array[i](a)
   }
   return a
 }
